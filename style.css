@@ -1,0 +1,138 @@
+
+body{
+    background-image: linear-gradient(to right, rgba(106,90,205), rgb(174, 76, 174));
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: relative;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 128, 0.426);
+    color: white;
+}
+
+.h1{
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16;
+}
+
+.head div ul{
+    display: inline-flex;
+    margin-left: 25px;
+    flex-direction: row;
+    list-style-type: none;
+    position: relative;
+    justify-content: space-between;
+   
+}
+
+
+.head div ul li{
+   display: inline-block;
+   margin-left: 25px;
+   justify-content: space-between;
+}
+
+.float-left{
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right{
+    float:right;
+    margin-left: 25px;
+}
+
+.border{
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin: 80px;
+    padding: auto;
+
+}
+
+.AboutMe{
+    display:block;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding: relative;
+    height: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgba(0, 0, 128, 0.426)
+}
+
+.MyWork{
+    display:block;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: relative;
+    height:relative;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 128, 0.426);
+    color: white;
+
+}
+
+.MyContact{
+    display: block;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: relative;
+    height: relative;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 128, 0.426);
+    color: white;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.li{
+    left:25px;
+    text-align: center;
+    
+}
+
+.AboutMe h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.MyWork h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.MyContact h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+a{
+    color:white;
+   }
