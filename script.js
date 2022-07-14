@@ -6,6 +6,6 @@ function openImg(){
 
 function openImg2(){
     var image = document.getElementById('image2');
-    var source = image.src;
+    var source = image2.src;
     window.open(source);
 }
