@@ -5,7 +5,7 @@ function openImg(){
 }
 
 function openImg2(){
-    var image = document.getElementById('image2');
+    var image2 = document.getElementById('image2');
     var source = image2.src;
     window.open(source);
 }
